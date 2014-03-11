@@ -23,12 +23,14 @@
 		59780DDA18CEC048009F83FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59780DD818CEC048009F83FA /* InfoPlist.strings */; };
 		59780DDC18CEC048009F83FA /* g015v2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DDB18CEC048009F83FA /* g015v2Tests.m */; };
 		59780DE718CEC9C8009F83FA /* IEDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DE618CEC9C8009F83FA /* IEDHomeViewController.m */; };
-		59780DEB18CEC9F0009F83FA /* IEDPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DEA18CEC9F0009F83FA /* IEDPlayViewController.m */; };
 		59780DEF18CECA11009F83FA /* IEDHistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DEE18CECA11009F83FA /* IEDHistoryTableViewController.m */; };
 		59780DF318CECA29009F83FA /* IEDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DF218CECA29009F83FA /* IEDSettingsViewController.m */; };
 		59780DF618CECA4D009F83FA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59780DF518CECA4D009F83FA /* Main_iPhone.storyboard */; };
 		59780DF918CEDB15009F83FA /* IEDCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 59780DF818CEDB15009F83FA /* IEDCoreDataHelper.m */; };
 		59BDF05F18CF0CC200FD85AF /* IEDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BDF05E18CF0CC200FD85AF /* IEDConstants.m */; };
+		59BDF06A18CF1B8100FD85AF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BDF06918CF1B8100FD85AF /* Round.m */; };
+		59BDF06D18CF1B8200FD85AF /* Hole.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BDF06C18CF1B8200FD85AF /* Hole.m */; };
+		59BDF07018CF200100FD85AF /* IEDPlayTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BDF06F18CF200100FD85AF /* IEDPlayTableViewController.m */; };
 		739E752B820E490F977C98D5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F13AA15A5324D5992124010 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +67,6 @@
 		59780DDB18CEC048009F83FA /* g015v2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = g015v2Tests.m; sourceTree = "<group>"; };
 		59780DE518CEC9C8009F83FA /* IEDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDHomeViewController.h; sourceTree = "<group>"; };
 		59780DE618CEC9C8009F83FA /* IEDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDHomeViewController.m; sourceTree = "<group>"; };
-		59780DE918CEC9F0009F83FA /* IEDPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDPlayViewController.h; sourceTree = "<group>"; };
-		59780DEA18CEC9F0009F83FA /* IEDPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDPlayViewController.m; sourceTree = "<group>"; };
 		59780DED18CECA11009F83FA /* IEDHistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDHistoryTableViewController.h; sourceTree = "<group>"; };
 		59780DEE18CECA11009F83FA /* IEDHistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDHistoryTableViewController.m; sourceTree = "<group>"; };
 		59780DF118CECA29009F83FA /* IEDSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDSettingsViewController.h; sourceTree = "<group>"; };
@@ -76,6 +76,12 @@
 		59780DF818CEDB15009F83FA /* IEDCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDCoreDataHelper.m; sourceTree = "<group>"; };
 		59BDF05D18CF0CC200FD85AF /* IEDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDConstants.h; sourceTree = "<group>"; };
 		59BDF05E18CF0CC200FD85AF /* IEDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDConstants.m; sourceTree = "<group>"; };
+		59BDF06818CF1B8100FD85AF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
+		59BDF06918CF1B8100FD85AF /* Round.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Round.m; sourceTree = "<group>"; };
+		59BDF06B18CF1B8200FD85AF /* Hole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hole.h; sourceTree = "<group>"; };
+		59BDF06C18CF1B8200FD85AF /* Hole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hole.m; sourceTree = "<group>"; };
+		59BDF06E18CF200100FD85AF /* IEDPlayTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IEDPlayTableViewController.h; sourceTree = "<group>"; };
+		59BDF06F18CF200100FD85AF /* IEDPlayTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IEDPlayTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,11 +148,11 @@
 			isa = PBXGroup;
 			children = (
 				59780DF518CECA4D009F83FA /* Main_iPhone.storyboard */,
+				59780DC418CEC048009F83FA /* g015v2.xcdatamodeld */,
 				59780DC118CEC048009F83FA /* IEDAppDelegate.h */,
 				59780DC218CEC048009F83FA /* IEDAppDelegate.m */,
 				59780DFA18CEDB1E009F83FA /* Core Data */,
 				59780DC718CEC048009F83FA /* Images.xcassets */,
-				59780DC418CEC048009F83FA /* g015v2.xcdatamodeld */,
 				59780DF418CECA2C009F83FA /* Settings */,
 				59780DF018CECA15009F83FA /* History */,
 				59780DEC18CEC9F6009F83FA /* Play */,
@@ -198,8 +204,8 @@
 		59780DEC18CEC9F6009F83FA /* Play */ = {
 			isa = PBXGroup;
 			children = (
-				59780DE918CEC9F0009F83FA /* IEDPlayViewController.h */,
-				59780DEA18CEC9F0009F83FA /* IEDPlayViewController.m */,
+				59BDF06E18CF200100FD85AF /* IEDPlayTableViewController.h */,
+				59BDF06F18CF200100FD85AF /* IEDPlayTableViewController.m */,
 			);
 			name = Play;
 			sourceTree = "<group>";
@@ -225,6 +231,7 @@
 		59780DFA18CEDB1E009F83FA /* Core Data */ = {
 			isa = PBXGroup;
 			children = (
+				59BDF06718CF1B1200FD85AF /* NSManagedObject */,
 				59780DF718CEDB15009F83FA /* IEDCoreDataHelper.h */,
 				59780DF818CEDB15009F83FA /* IEDCoreDataHelper.m */,
 			);
@@ -238,6 +245,17 @@
 				59BDF05E18CF0CC200FD85AF /* IEDConstants.m */,
 			);
 			name = Constants;
+			sourceTree = "<group>";
+		};
+		59BDF06718CF1B1200FD85AF /* NSManagedObject */ = {
+			isa = PBXGroup;
+			children = (
+				59BDF06B18CF1B8200FD85AF /* Hole.h */,
+				59BDF06C18CF1B8200FD85AF /* Hole.m */,
+				59BDF06818CF1B8100FD85AF /* Round.h */,
+				59BDF06918CF1B8100FD85AF /* Round.m */,
+			);
+			name = NSManagedObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,14 +390,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59BDF06D18CF1B8200FD85AF /* Hole.m in Sources */,
 				59BDF05F18CF0CC200FD85AF /* IEDConstants.m in Sources */,
 				59780DE718CEC9C8009F83FA /* IEDHomeViewController.m in Sources */,
+				59BDF06A18CF1B8100FD85AF /* Round.m in Sources */,
+				59BDF07018CF200100FD85AF /* IEDPlayTableViewController.m in Sources */,
 				59780DC618CEC048009F83FA /* g015v2.xcdatamodeld in Sources */,
 				59780DBF18CEC048009F83FA /* main.m in Sources */,
 				59780DF918CEDB15009F83FA /* IEDCoreDataHelper.m in Sources */,
 				59780DC318CEC048009F83FA /* IEDAppDelegate.m in Sources */,
 				59780DF318CECA29009F83FA /* IEDSettingsViewController.m in Sources */,
-				59780DEB18CEC9F0009F83FA /* IEDPlayViewController.m in Sources */,
 				59780DEF18CECA11009F83FA /* IEDHistoryTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
