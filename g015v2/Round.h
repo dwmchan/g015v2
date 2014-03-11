@@ -12,7 +12,7 @@
 
 @interface Round : NSManagedObject
 
-@property (nonatomic) NSTimeInterval date;
+@property (nonatomic, retain) NSDate * date;
 @property (nonatomic, retain) NSString * golfCourse;
 
 @end
