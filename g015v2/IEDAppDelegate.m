@@ -16,10 +16,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    //Setup Parse ID
+    [Parse setApplicationId:@"7eh7Ct3qJ8tSn2Q9nZ0Oe0GmYGSXbK5pxYx4Mwen"
+                  clientKey:@"KpOeVFS5n2IDzvcS3kyIwS3jPnRPFG6ROd5kIhPC"];
+    //Initialise Facebook
+    [PFFacebookUtils initializeFacebook];
+    //Initialise Mixpanel
+    //    [Mixpanel sharedInstanceWithToken:MIXPANEL_TOKEN];
+    
+    
+    
     return YES;
 }
 

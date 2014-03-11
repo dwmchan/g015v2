@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>60020ADB-29B9-4CC3-83EF-15B910BEB9A7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>g015v2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>75D4C580-A9A4-493E-8B38-24674598077A</key>
+		<string>https://github.com/dwmchan/g015v2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>g015v2.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>75D4C580-A9A4-493E-8B38-24674598077A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dwmchan/g015v2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>75D4C580-A9A4-493E-8B38-24674598077A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>75D4C580-A9A4-493E-8B38-24674598077A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>g015v2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
