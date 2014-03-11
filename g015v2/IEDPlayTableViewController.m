@@ -70,21 +70,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
-{
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
-}
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -158,13 +144,13 @@
 
 
 #pragma mark - Helper Methods
--(Round *) RoundWithName:(NSString *) name
+-(Round *) roundAtGolfCourse:(NSString *) golfCourse
 {
     
     NSManagedObjectContext *context = [IEDCoreDataHelper managedObjectContext];
     
     Round *round = [NSEntityDescription insertNewObjectForEntityForName:@"Round" inManagedObjectContext:context];
-    round.name = name;
+    round.golfCourse = golfCourse;
     round.date = [NSDate date];
     
     NSError *error = nil;
@@ -181,7 +167,7 @@
 {
     if (buttonIndex == 1) {
         NSString *alertText = [alertView textFieldAtIndex:0].text;
-        [self.rounds addObject:[self roundWithName:alertText]];
+        [self.rounds addObject:[self roundAtGolfCourse:alertText]];
         [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:[self.rounds count] -1 inSection:0]] withRowAnimation:UITableViewRowAnimationFade];
         
         //        Album *newAlbum = [self albumWithName:alertText];
@@ -205,7 +191,7 @@
     // Return the number of rows in the section.
     
     
-    return [self.albums count];
+    return [self.rounds count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -214,8 +200,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Album *selectedAlbum = self.albums[indexPath.row];
-    cell.textLabel.text = selectedAlbum.name;
+    Round *selectedRound = self.rounds[indexPath.row];
+    cell.textLabel.text = selectedRound.golfCourse;
     
     return cell;
 }
